@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    color: black;
+    font-size: 25px;
+}
+
+.f{
+    height: 180px;
+    width: 15%;
+    background-color: wheat;
+}
+
+.image-div{
+    padding-top:30px;
+    display: inline-flexbox;
+    display: flexbox;
+    background-color:wheat;
+    gap: 15px;
+    padding-left: 10px;
+    display: flex;
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+h1:hover{
+    color: brown;
+    position: inherit;
+    pointer-events: visiblePainted;
+    cursor: pointer;
+    
+}
+p:hover{
+    color: brown;
+}
+
+.email{
+    background-color: aqua;
+    font-size: x-large;
+}
+button{
+    height: 50px;
+    width: 12%;
+    margin-left: 10px;
+    text-align: center;
+    color: red;
+    background-color: black
+}
+button:hover{
+    color: white;
+    cursor: pointer;
+    border:gold dashed;
+    background-color: blue;
+    border-radius: 1px solid red;
+    
+}
+.optional{
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#or{
+    padding-top: 30px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.last{
+    text-align: center;
+}
